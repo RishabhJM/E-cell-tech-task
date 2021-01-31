@@ -1,0 +1,107 @@
+/* heading part */
+body{
+    background-color:#a3ddcb ;
+    margin: 0%;
+    font-family:'Roboto', sans-serif;;
+}
+.heading{
+    background-color:#0a043c;
+    color: cornsilk;
+    width:100%;
+    padding: 0%;
+    margin: 0%;
+
+}
+
+h1{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    margin:0;
+    font-family: 'Lobster', cursive;
+}
+/* formatting form */
+.mainform{
+    background-color:#ffc478;
+    padding: 0%;
+    justify-content:center;
+    margin: 2em 5em;
+    border: 15px solid black ;
+
+
+
+}
+input{
+
+    border-radius: 7px;
+    width: 25rem;
+    padding: 1em ;
+
+}
+form div{
+    padding: 2em 2em 2em;
+}
+h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    font-family: 'Lobster', cursive;
+}
+.myp{
+    align-items:center;
+    justify-content: center;
+}
+
+button{
+    width: 30em;
+    height:2.5em;
+    background-image: linear-gradient(135deg, #1687a7 0%, #e42d7f 100%);
+    color: white;
+    font-size: 1rem;
+    border: 0;
+
+
+    
+}
+button:hover{
+    background-position: right center;
+    transform: translateY(-0.2em);
+    width:30.5em;
+    
+
+}
+/* making webpage responsive */
+@media (max-width:1500px){
+    input{
+        width:30rem;
+    }
+}
+
+@media (max-width:740px){
+    button,input{
+        width:15rem;
+    }
+}
+@media (max-width:540px){
+    button,input{
+        width:10rem;
+    }
+}
+@media (max-width:400px){
+    button,input{
+        width:5rem;
+        padding: 0;
+    }
+    .heading{
+        width: 100%;
+    }
+    body{
+        margin:auto;
+    }
+}
+
+
+
+
